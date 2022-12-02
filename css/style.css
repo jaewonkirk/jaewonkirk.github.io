@@ -1,0 +1,17 @@
+.hidden {
+    display:none;
+}
+
+#background img{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    z-index: -1;
+}
+
+body{
+    background: linear-gradient(90deg, blue, pink);
+}
