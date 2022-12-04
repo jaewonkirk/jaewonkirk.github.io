@@ -2,6 +2,17 @@
     display:none;
 }
 
+#bg-filter {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    opacity: 0.5;
+    background-color: #111122;
+    z-index: -1;
+}
+
 #background {
     position: absolute;
     width: 100%;
@@ -14,8 +25,12 @@
     z-index: -1;
 }
 
+body{
+    background-color: #111122;
+}
+
 main{
-    padding-top: 100px;
+    margin-top: 100px;
     color: #E0E0EF;
     display: flex;
     flex-direction: column;
@@ -31,4 +46,12 @@ main{
 
 #todo-form input{
     width: 300px;
+}
+
+#clock{
+    margin-bottom: 5px;
+}
+
+#weather{
+    margin-top: 5px;
 }
